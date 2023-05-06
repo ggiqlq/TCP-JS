@@ -143,3 +143,6 @@ Date().toString();     // Mon May 16 2016 19:35:25 GMT+0900
 var date = new Date(); // Date 객체 생성
 date.getFullYear();    // 2016
 date.getTime();        // 1463394925632 -> 1970년 1월 1일부터 현재까지의 시간을 밀리초 단위의 숫자로 반환함.
+
+Number(true); //숫자 1
+Number(false);  //숫자 0
