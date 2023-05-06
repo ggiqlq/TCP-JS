@@ -46,3 +46,11 @@ var cat = "나비"; // 일반적인 변수의 선언
 var kitty = {name: "나비",family:"코리안 숏 헤어",age:1,weight:0.1};
 cat // 나비
 kitty.name // 나비
+
+/*
+<script>
+    function alertDialogBox(){
+        alert("확인을 누를 떄까지 다른 작업을 할 수 없어요!");
+    }
+</script>
+*/
