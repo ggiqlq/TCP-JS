@@ -72,3 +72,7 @@ function printDate(){
 function printDate() {
     document.getElementById("data").innerHTMl =  Data();
 }
+
+function printDate(){
+    document.getElementById("data").innerHTML = Data();
+}
