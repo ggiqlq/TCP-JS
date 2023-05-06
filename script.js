@@ -120,3 +120,8 @@ null === undefined //false
 var dog = {name:"해피", age:3}; //객체의 생성
 //객체의 프로퍼티 참조
 document.getElementById("result").innerHTML = "강아지의 이름은 " + dog.name + "이고, 나이는" + dog.age + "살 입니다";
+
+var num = 20; //number 타입의 20
+num = "이십"; //string 타입의 "이십"
+var num; //한 변수에 여러 번 대입할 수는 있지만, 변수의 재선언은 할 수 없습니다.
+//재선언문은 무시됩니다.
