@@ -186,3 +186,9 @@ document.write(y);                  // 11
 var x = 10;
 var y = x-- + 5 + --x;
 //x = 8, y = 23;
+
+var x = 3, y = 5;
+var a = "abc", b = "bcd";
+document.write((x > y) + "<br>"); // y의 값이 x의 값보다 크므로 false
+document.write((a <= b) + "<br>"); //알파벳 순서상 'a'가 'b'보다 먼저 나오므로 'a'가 'b'보다 작음
+document.write(x < a); //x의 값은 숫자이고 a의 값은 문자열이므로 비교 불가
