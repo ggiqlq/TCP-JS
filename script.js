@@ -78,3 +78,7 @@ function printDate(){
 }
 
 /examples/media/example.js
+
+var num = 10; //숫자
+var myname = "홍길동" // 문자열
+var str; //undifined
