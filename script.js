@@ -109,3 +109,7 @@ typeof "문자열" //string 타입
 typeof true; //불리언 타입
 typeof undefined // undifined 타입
 typeof null // object 타입
+
+var num; //초기화하지 않았으므로 undefined 값을 반환함.
+var str = null; //object 타입의 null 값
+typeof secondNum; //정의되지 않은 변수에 접근하면 undefined 값을 반환함.
