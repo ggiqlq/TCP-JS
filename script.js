@@ -96,3 +96,7 @@ var thirdStr = "나의 이름은 '홍길동'이야." // 작은 따옴표는 큰 
 var num = 10;
 var str = "JavaScript";
 document.getElementById("result").innerHTML = (num + str); //10javescript
+
+var firstNum = 10;
+var secondNum = 11;
+document.getElementById("result").innerHTMl = (firstNum == secondNum); // false
