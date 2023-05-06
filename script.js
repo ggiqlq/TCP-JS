@@ -100,3 +100,6 @@ document.getElementById("result").innerHTML = (num + str); //10javescript
 var firstNum = 10;
 var secondNum = 11;
 document.getElementById("result").innerHTMl = (firstNum == secondNum); // false
+
+var sym = Symbol("javascript"); //symbol 타입
+var symObj = Object(sym); //object 타입
