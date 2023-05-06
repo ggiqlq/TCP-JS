@@ -116,3 +116,7 @@ typeof secondNum; //정의되지 않은 변수에 접근하면 undefined 값을 
 
 null == undefined //true
 null === undefined //false
+
+var dog = {name:"해피", age:3}; //객체의 생성
+//객체의 프로퍼티 참조
+document.getElementById("result").innerHTML = "강아지의 이름은 " + dog.name + "이고, 나이는" + dog.age + "살 입니다";
