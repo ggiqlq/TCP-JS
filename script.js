@@ -82,3 +82,8 @@ function printDate(){
 var num = 10; //숫자
 var myname = "홍길동" // 문자열
 var str; //undifined
+
+var firstNum = 10; //소수점을 사용하지 않은 표현
+var secondNum = 10.00; //소수점을 사용한 표현
+var thirdNum = 10e6; //10000000
+var fourthNum = 10e-6 //0.00001
