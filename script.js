@@ -64,3 +64,7 @@ document.write(4 * 5);
 console.log(4 * 5);
 
 document.getElementById("text").innerHTML = "여러분 환영합니다!";
+
+function printDate(){
+    document.getElementById("data").innerHtml = Data();
+}
