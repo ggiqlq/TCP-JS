@@ -161,3 +161,6 @@ month = 10, date = 5 // 여러 변수를 한 번에 초기회
 var num = 10; //변수의 선언과 함께 초기화
 num = {10,20,30}; //배열 대입
 var num; //이 재선언문은 무시됨
+
+var num; // undefined
+num = 10; //10
