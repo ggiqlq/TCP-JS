@@ -197,3 +197,9 @@ var x = 3, y = '3',z = 3;
 document.write((x == y) + "<br>"); //x와 y의 타입이 서로 다르므로 타입을 서로 같게 한 후 비교를 하므로 true
 document.write((x === y) + "<br>"); //x와 y의 타입이 서로 다르므로 false
 document.write(x === z); //x와 z는 값과 탕ㅂ이 모두 같으므로 true
+
+var x = true, y = false;
+document.write((x && y) + "<br>"); // false (논리 AND 연산)
+document.write((x || y) + "<br>"); // true  (논리 OR  연산)
+document.write(!x);                // false (논리 NOT 연산)
+
