@@ -53,5 +53,7 @@ function alertDialogBox() {
     alert("확인을 누를 떄까지 다른 작업을 할 수 없어요!");
 }
 
+// alt + shift + f
+
 
 
