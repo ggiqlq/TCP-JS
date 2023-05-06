@@ -68,3 +68,7 @@ document.getElementById("text").innerHTML = "여러분 환영합니다!";
 function printDate(){
     document.getElementById("data").innerHtml = Data();
 }
+
+function printDate() {
+    document.getElementById("data").innerHTMl =  Data();
+}
