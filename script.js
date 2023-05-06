@@ -65,19 +65,19 @@ console.log(4 * 5);
 
 document.getElementById("text").innerHTML = "여러분 환영합니다!";
 
-function printDate(){
+function printDate() {
     document.getElementById("data").innerHtml = Data();
 }
 
 function printDate() {
-    document.getElementById("data").innerHTMl =  Data();
+    document.getElementById("data").innerHTMl = Data();
 }
 
-function printDate(){
+function printDate() {
     document.getElementById("data").innerHTML = Data();
 }
 
-/examples/media/example.js
+/examples/media / example.js
 
 var num = 10; //숫자
 var myname = "홍길동" // 문자열
@@ -117,7 +117,7 @@ typeof secondNum; //정의되지 않은 변수에 접근하면 undefined 값을 
 null == undefined //true
 null === undefined //false
 
-var dog = {name:"해피", age:3}; //객체의 생성
+var dog = { name: "해피", age: 3 }; //객체의 생성
 //객체의 프로퍼티 참조
 document.getElementById("result").innerHTML = "강아지의 이름은 " + dog.name + "이고, 나이는" + dog.age + "살 입니다";
 
@@ -134,3 +134,12 @@ Number("10"); //숫자 10
 String(true); //문자열 "true"
 Boolean(0); //불리언 false
 Object(3); // new Number(3)와 동일한 결과로 숫자 3
+
+String(true); //문자열 "true"
+false.toString(); //문자열 "false"
+
+String(Date());        // Mon May 16 2016 19:35:25 GMT+0900
+Date().toString();     // Mon May 16 2016 19:35:25 GMT+0900
+var date = new Date(); // Date 객체 생성
+date.getFullYear();    // 2016
+date.getTime();        // 1463394925632 -> 1970년 1월 1일부터 현재까지의 시간을 밀리초 단위의 숫자로 반환함.
