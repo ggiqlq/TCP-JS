@@ -12,13 +12,13 @@ var Script = 30; // 변수의 선언은 var 키워드로만 할 수 있으면 Va
 "안녕하세요" //문자열 리터럴
 true // 불리언 리터럴
 
- var firstVar = 10; //camel case 방식
- function my_first_func() {  //Underscore case  방식
+var firstVar = 10; //camel case 방식
+function my_first_func() {  //Underscore case  방식
     var firstLocalvar = 20; //camel case 방식
- }
+}
 
 
- var firstVar = 10; // var는 변수의 정의를 위해 예약된 키워드입니다.
+var firstVar = 10; // var는 변수의 정의를 위해 예약된 키워드입니다.
 function myFirstFunc() { //function은 함수의 정의를 위해 예약된 키워드입니다.
     var secondVar = 20; //var는 변수의 정의를 위해 예약된 키워드입니다.
 }
@@ -43,15 +43,15 @@ x = x + y;
 
 var cat = "나비"; // 일반적인 변수의 선언
 //객체도 많은 값을 가지는 변수의 하나임.
-var kitty = {name: "나비",family:"코리안 숏 헤어",age:1,weight:0.1};
+var kitty = { name: "나비", family: "코리안 숏 헤어", age: 1, weight: 0.1 };
 cat // 나비
 kitty.name // 나비
 
 
 
-    function alertDialogBox(){
-        alert("확인을 누를 떄까지 다른 작업을 할 수 없어요!");
-    }
+function alertDialogBox() {
+    alert("확인을 누를 떄까지 다른 작업을 할 수 없어요!");
+}
 
 
 
