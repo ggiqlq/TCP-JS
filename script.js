@@ -103,3 +103,9 @@ document.getElementById("result").innerHTMl = (firstNum == secondNum); // false
 
 var sym = Symbol("javascript"); //symbol 타입
 var symObj = Object(sym); //object 타입
+
+typeof 10; //number 타입
+typeof "문자열" //string 타입
+typeof true; //불리언 타입
+typeof undefined // undifined 타입
+typeof null // object 타입
