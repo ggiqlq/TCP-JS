@@ -164,3 +164,10 @@ var num; //이 재선언문은 무시됨
 
 var num; // undefined
 num = 10; //10
+
+var x = 10, y = 4;
+document.write(x + y + "<br>"); // 14
+document.write(x - y + "<br>"); // 6
+document.write(x * y + "<br>"); // 40
+document.write(x / y + "<br>"); // 2.5
+document.write(x % y);          // 2
