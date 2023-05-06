@@ -76,3 +76,5 @@ function printDate() {
 function printDate(){
     document.getElementById("data").innerHTML = Data();
 }
+
+/examples/media/example.js
