@@ -153,3 +153,7 @@ date = 25; // date라는 이름의 변수를 묵시적으로 선언
 var month; //변수의 선언
 var date = 25;  //변수의 선언과 동시에 초기화
 month = 12; //변수의 초기화
+
+var month,date; //여러 변수를 한 번에 선언
+var hours = 7, minutes = 15; //여러 변수를 선언과 동시에 초기화
+month = 10, date = 5 // 여러 변수를 한 번에 초기회
